@@ -8228,6 +8228,18 @@
             "masterid": "351000001",
             "mastervalues": "[{\"optionid\":\"19000510649\",\"optionvalue\":\"All Open Task\"},{\"optionid\":\"19000510650\",\"optionvalue\":\"Planned Task\"},{\"optionid\":\"19000510651\",\"optionvalue\":\"Last Week Worked\\/Still Open\"},{\"optionid\":\"19000510652\",\"optionvalue\":\"OverDue\"},{\"optionid\":\"19000510653\",\"optionvalue\":\"Without Due\"}]",
             "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7700003",
+            "mastervalues": "[{\"optionid\":\"9001\",\"optionvalue\":\"Diana Prince\"},{\"optionid\":\"8002\",\"optionvalue\":\"Edward Wilson\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7700002",
+            "mastervalues": "[{\"optionid\":\"8001\",\"optionvalue\":\"Hr Recruiter\"},{\"optionid\":\"8002\",\"optionvalue\":\"Assistant Manager\"},{\"optionid\":\"8003\",\"optionvalue\":\"Senior Manager\"}]",
+            "groupvalue": {}
           }
         ]
       },
@@ -9302,10 +9314,10 @@
           "CandidateName": "Edward Wilson",
           "AppliedFor": "HR Recruiter",
           "Rating": "Star Rating",
-          "Email": "bob.s@email.com",
-          "Mobile": "(555) 345-6789",
-          "Recruiter": "Diana Prince",
-          "Source":"Job Board - Monster",
+          "Email": "edward.s@email.com",
+          "Mobile": "(555) 235-5749",
+          "Recruiter": "Wilson Prince",
+          "Source":"Resume Parser",
           "Status": "Application Received"
         },
         {
@@ -9313,10 +9325,10 @@
           "CandidateName": "Bobby Smith",
           "AppliedFor": "Senior. Manager",
           "Rating": "Star Rating",
-          "Email": "bob.s@email.com",
-          "Mobile": "(555) 345-6789",
-          "Recruiter": "Diana Prince",
-          "Source":"Job Board - Monster",
+          "Email": "smith.s@email.com",
+          "Mobile": "(555) 543-9876",
+          "Recruiter": "Prince Smith",
+          "Source":"Employee Referral",
           "Status": "Rejected"
         },
         {
@@ -9324,15 +9336,59 @@
           "CandidateName": "Alice Johnson",
           "AppliedFor": "Asst. Manager",
           "Rating": "Star Rating",
+          "Email": "alice.s@email.com",
+          "Mobile": "(555) 345-6789",
+          "Recruiter": "Johnson Prince",
+          "Source":"Resume Parser",
+          "Status": "Interview Scheduled"
+        },
+        {
+          "id": "01",
+          "CandidateName": "Charlie Brown",
+          "AppliedFor": "HR Recruiter",
+          "Rating": "Star Rating",
+          "Email": "charlie.b@email.com",
+          "Mobile": "(555) 123-4567",
+          "Recruiter": "Diana Prince",
+          "Source":"Resume Parser",
+          "Status": "Application Received"
+        },
+        {
+          "id": "02",
+          "CandidateName": "Alice Johnson",
+          "AppliedFor": "Asst. Manager",
+          "Rating": "Star Rating",
+          "Email": "alice.j@email.com",
+          "Mobile": "(555) 234-5678",
+          "Recruiter": "Edward Wilson",
+          "Source":"Employee Referral",
+          "Status": "Rejected"
+        },
+        {
+          "id": "03",
+          "CandidateName": "Bob Smith",
+          "AppliedFor": "Senior. Manager",
+          "Rating": "Star Rating",
           "Email": "bob.s@email.com",
           "Mobile": "(555) 345-6789",
           "Recruiter": "Diana Prince",
           "Source":"Job Board - Monster",
           "Status": "Interview Scheduled"
+        },
+        {
+          "id": "04",
+          "CandidateName": "Edward Wilson",
+          "AppliedFor": "HR Recruiter",
+          "Rating": "Star Rating",
+          "Email": "edward.s@email.com",
+          "Mobile": "(555) 235-5749",
+          "Recruiter": "Wilson Prince",
+          "Source":"Resume Parser",
+          "Status": "Application Received"
         }
       ],
 
-      "totalRecords": 6,
+      "totalRecords": 10,
       "groupbydetails": [
        
         {
