@@ -8274,24 +8274,6 @@
               "listfields": [
                 {
                   "id": "job00",
-                  "name": "Job Code",
-                  "lablekey": "entity-code-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "JobCode",
-                  "inlineeditable": null,
-                  "istitle": true,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "job01",
                   "name": "Job Title",
                   "lablekey": "entity-jobtitle-lbl",
                   "columnwidth": 150,
@@ -8303,6 +8285,24 @@
                   "api_name": "DisplayName",
                   "visible": true,
                   "displayapiname": "JobTitle",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "job01",
+                  "name": "Job Code",
+                  "lablekey": "entity-code-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "JobCode",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -8603,63 +8603,203 @@
       "data": [
         {
           "id": "01",
-          "JobCode": "HR_JR_REC",
-          "JobTitle": "HR Recruiter",
-          "Recruiter": "Mike",
+          "JobTitle": "Software Engineer",
+          "JobCode": "SE123",
+          "Recruiter": "John Doe",
           "Location": "New York, NY",
-          "DaysOpen": "96",
-          "ActiveApplications": "24 (5 new)",
-          "Status": "Approved"
+          "DaysOpen": "30",
+          "ActiveApplications": "12",
+          "Status": "Closed"
         },
         {
           "id": "02",
-          "JobCode": "ASM",
-          "JobTitle": "Asst. Manager",
-          "Recruiter": "Williams",
+          "JobTitle": "Project Manager",
+          "JobCode": "PM456",
+          "Recruiter": "Jane Smith",
           "Location": "San Francisco, CA",
-          "DaysOpen": "122",
-          "ActiveApplications": "24 (0 new)",
-          "Status": "Draft"
+          "DaysOpen": "45",
+          "ActiveApplications": "18",
+          "Status": "Closed"
         },
         {
           "id": "03",
-          "JobCode": "SM",
-          "JobTitle": "Senior. Manager",
-          "Recruiter": "Johnson",
-          "Location": "Remote",
-          "DaysOpen": "130",
-          "ActiveApplications": "11 (2 new)",
-          "Status": "InProgress"
+          "JobTitle": "Data Analyst",
+          "JobCode": "DA789",
+          "Recruiter": "Mark Johnson",
+          "Location": "Chicago, IL",
+          "DaysOpen": "25",
+          "ActiveApplications": "9",
+          "Status": "Open"
         },
         {
           "id": "04",
-          "JobCode": "ASM",
-          "JobTitle": "Asst. Manager",
-          "Recruiter": "James",
-          "Location": "Remote",
-          "DaysOpen": "130",
-          "ActiveApplications": "14 (2 new)",
-          "Status": "Cancelled"
+          "JobTitle": "HR Coordinator",
+          "JobCode": "HR101",
+          "Recruiter": "Lisa Brown",
+          "Location": "Austin, TX",
+          "DaysOpen": "50",
+          "ActiveApplications": "5",
+          "Status": "Open"
         },
         {
           "id": "05",
-          "JobCode": "HR_JR_REC",
-          "JobTitle": "HR Recruiter",
-          "Recruiter": "Jo",
-          "Location": "Remote",
-          "DaysOpen": "130",
-          "ActiveApplications": "16 (2 new)",
-          "Status": "Waiting for approval"
+          "JobTitle": "UX Designer",
+          "JobCode": "UX555",
+          "Recruiter": "Emily Clark",
+          "Location": "Seattle, WA",
+          "DaysOpen": "35",
+          "ActiveApplications": "7",
+          "Status": "Closed"
         },
         {
           "id": "06",
-          "JobCode": "SM",
-          "JobTitle": "Senior. Manager",
-          "Recruiter": "Denny",
-          "Location": "Remote",
-          "DaysOpen": "130",
-          "ActiveApplications": "15 (2 new)",
-          "Status": "Published"
+          "JobTitle": "IT Support",
+          "JobCode": "IT777",
+          "Recruiter": "Robert White",
+          "Location": "Boston, MA",
+          "DaysOpen": "40",
+          "ActiveApplications": "4",
+          "Status": "Open"
+        },
+        {
+          "id": "07",
+          "JobTitle": "Business Analyst",
+          "JobCode": "BA234",
+          "Recruiter": "Nancy Green",
+          "Location": "Denver, CO",
+          "DaysOpen": "60",
+          "ActiveApplications": "15",
+          "Status": "Closed"
+        },
+        {
+          "id": "08",
+          "JobTitle": "Marketing Manager",
+          "JobCode": "MM890",
+          "Recruiter": "Steve Harris",
+          "Location": "Los Angeles, CA",
+          "DaysOpen": "20",
+          "ActiveApplications": "11",
+          "Status": "Open"
+        },
+        {
+          "id": "09",
+          "JobTitle": "DevOps Engineer",
+          "JobCode": "DE678",
+          "Recruiter": "Brian Adams",
+          "Location": "Dallas, TX",
+          "DaysOpen": "55",
+          "ActiveApplications": "14",
+          "Status": "Closed"
+        },
+        {
+          "id": "10",
+          "JobTitle": "Graphic Designer",
+          "JobCode": "GD333",
+          "Recruiter": "Sophia Carter",
+          "Location": "Miami, FL",
+          "DaysOpen": "33",
+          "ActiveApplications": "6",
+          "Status": "Open"
+        },
+        {
+          "id": "11",
+          "JobTitle": "QA Engineer",
+          "JobCode": "QA987",
+          "Recruiter": "Adam Scott",
+          "Location": "Houston, TX",
+          "DaysOpen": "58",
+          "ActiveApplications": "13",
+          "Status": "Closed"
+        },
+        {
+          "id": "12",
+          "JobTitle": "Cybersecurity Analyst",
+          "JobCode": "CY456",
+          "Recruiter": "Megan Walker",
+          "Location": "Phoenix, AZ",
+          "DaysOpen": "25",
+          "ActiveApplications": "10",
+          "Status": "Open"
+        },
+        {
+          "id": "13",
+          "JobTitle": "Product Manager",
+          "JobCode": "PM654",
+          "Recruiter": "Olivia Taylor",
+          "Location": "Portland, OR",
+          "DaysOpen": "40",
+          "ActiveApplications": "8",
+          "Status": "Closed"
+        },
+        {
+          "id": "14",
+          "JobTitle": "Systems Administrator",
+          "JobCode": "SA321",
+          "Recruiter": "Kevin Hall",
+          "Location": "Detroit, MI",
+          "DaysOpen": "50",
+          "ActiveApplications": "9",
+          "Status": "Open"
+        },
+        {
+          "id": "15",
+          "JobTitle": "Content Writer",
+          "JobCode": "CW789",
+          "Recruiter": "Jennifer Lewis",
+          "Location": "Nashville, TN",
+          "DaysOpen": "22",
+          "ActiveApplications": "5",
+          "Status": "Closed"
+        },
+        {
+          "id": "16",
+          "JobTitle": "Mechanical Engineer",
+          "JobCode": "ME567",
+          "Recruiter": "Daniel Carter",
+          "Location": "Philadelphia, PA",
+          "DaysOpen": "57",
+          "ActiveApplications": "14",
+          "Status": "Open"
+        },
+        {
+          "id": "17",
+          "JobTitle": "Cloud Architect",
+          "JobCode": "CA234",
+          "Recruiter": "Benjamin Young",
+          "Location": "San Diego, CA",
+          "DaysOpen": "32",
+          "ActiveApplications": "7",
+          "Status": "Closed"
+        },
+        {
+          "id": "18",
+          "JobTitle": "Electrical Engineer",
+          "JobCode": "EE876",
+          "Recruiter": "Rachel Brooks",
+          "Location": "Minneapolis, MN",
+          "DaysOpen": "55",
+          "ActiveApplications": "12",
+          "Status": "Open"
+        },
+        {
+          "id": "19",
+          "JobTitle": "Sales Manager",
+          "JobCode": "SM543",
+          "Recruiter": "Christopher Reed",
+          "Location": "Atlanta, GA",
+          "DaysOpen": "18",
+          "ActiveApplications": "9",
+          "Status": "Closed"
+        },
+        {
+          "id": "20",
+          "JobTitle": "Customer Support Rep",
+          "JobCode": "CS999",
+          "Recruiter": "Laura Martinez",
+          "Location": "Las Vegas, NV",
+          "DaysOpen": "45",
+          "ActiveApplications": "16",
+          "Status": "Open"
         }
       ],
 
