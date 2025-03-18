@@ -8561,7 +8561,7 @@
           "controltype": "textbox",
           "attrtype": "text",
           "api_name": "Location",
-          "columnwidth": 150
+          "columnwidth": 200
         },
         {
           "id": "job04",
@@ -8579,7 +8579,7 @@
           "controltype": "textbox",
           "attrtype": "text",
           "api_name": "ActiveApplications",
-          "columnwidth": 150
+          "columnwidth": 200
         },
         {
           "id": "job06",
@@ -8588,7 +8588,7 @@
           "controltype": "textbox",
           "attrtype": "text",
           "api_name": "Status",
-          "columnwidth": 150
+          "columnwidth": 200
         }
       ]
     }
