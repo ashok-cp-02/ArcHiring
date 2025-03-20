@@ -9192,7 +9192,7 @@
               ],
               "filterfields": [
                 {
-                  "id": "001",
+                  "id": "7907",
                   "name": "Candidate Name",
                   "lablekey": "entity-type-lbl",
                   "seqno": "01",
@@ -9227,33 +9227,6 @@
                   "api_name": "column13",
                   "islookup": false,
                   "masterid": "7700001",
-                  "apioutputskey": "optionid",
-                  "apioutputvalue": "optionvalue"
-                },
-                {
-                  "id": "004",
-                  "name": "Recruiter",
-                  "lablekey": "entity-type-lbl",
-                  "seqno": "04",
-                  "filtercontroltype": "multiselect",
-                  "isquickfilter": true,
-                  "api_name": "column13",
-                  "islookup": false,
-                  "masterid": "7700003",
-                  "apioutputskey": "optionid",
-                  "apioutputvalue": "optionvalue"
-                },
-                {
-                  "id": "005",
-                  "name": "Source",
-                  "lablekey": "entity-type-lbl",
-                  "seqno": "05",
-                  "filtercontroltype": "multiselect",
-                  "isquickfilter": true,
-                  "isvisible": true,
-                  "api_name": "column13",
-                  "islookup": false,
-                  "masterid": "8800004",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 }
@@ -9305,7 +9278,7 @@
       "last_accessed_time": null,
       "filters": [
         {
-          "id": "001",
+          "id": "7907",
           "filterid": "Lifecylce _Status",
           "filterdisplayname": "Job Opening",
           "filtercontroltype": "Workflow",
