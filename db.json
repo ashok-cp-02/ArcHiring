@@ -8099,6 +8099,12 @@
             "groupvalue": {}
           },
           {
+            "islookup": true,
+            "masterid": "7800001",
+            "mastervalues": "[{\"optionid\":\"7001\",\"optionvalue\":\"Online\"},{\"optionid\":\"7002\",\"optionvalue\":\"Face To Face\"}]",
+            "groupvalue": {}
+          },
+          {
             "islookup": false,
             "masterid": "7001",
             "mastervalues": "[{\"optionid\":\"31\",\"optionvalue\":\"Immediate\"},{\"optionid\":\"32\",\"optionvalue\":\"Important\"},{\"optionid\":\"33\",\"optionvalue\":\"A\"},{\"optionid\":\"34\",\"optionvalue\":\"B\"},{\"optionid\":\"35\",\"optionvalue\":\"C\"},{\"optionid\":\"36\",\"optionvalue\":\"D\"},{\"optionid\":\"37\",\"optionvalue\":\"X\"},{\"optionid\":\"38\",\"optionvalue\":\"Urgent\"}]",
@@ -8446,6 +8452,19 @@
                   "masterid": "",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "005",
+                  "name": "Date",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": 9,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "7800001",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
                 }
               ],
               "groupbyfields": [
@@ -8598,8 +8617,8 @@
       "data": [
         {
           "id": "01",
-          "JobTitle": "Software Engineer",
-          "JobCode": "SE123",
+          "JobTitle": "HR Recruiter",
+          "JobCode": "HR101",
           "Recruiter": "John Doe",
           "Location": "New York, NY",
           "DaysOpen": "30",
@@ -8825,6 +8844,12 @@
             "islookup": true,
             "masterid": "12AAF129-4402-4545-A8BF-B6BD67B8D00B",
             "mastervalues": "[{\"optionid\":\"7000\",\"optionvalue\":\"Project Type\"},{\"optionid\":\"7001\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7002\",\"optionvalue\":\"Status\"},{\"optionid\":\"7003\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7004\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7005\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7006\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7006\",\"optionvalue\":\"Type\"},{\"optionid\":\"7007\",\"optionvalue\":\"Family\"},{\"optionid\":\"7008\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7009\",\"optionvalue\":\"DeliverableType\"},{\"optionid\":\"7010\",\"optionvalue\":\"Project Top\"},{\"optionid\":\"7011\",\"optionvalue\":\"Due Week\"},{\"optionid\":\"7012\",\"optionvalue\":\"Work week\"},{\"optionid\":\"7013\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7014\",\"optionvalue\":\"Type\"},{\"optionid\":\"7015\",\"optionvalue\":\"Category\"},{\"optionid\":\"7016\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7017\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7018\",\"optionvalue\":\"Status\"},{\"optionid\":\"7019\",\"optionvalue\":\"Plan Year\"},{\"optionid\":\"7020\",\"optionvalue\":\"Plan Month\"},{\"optionid\":\"7021\",\"optionvalue\":\"Plan Week\"},{\"optionid\":\"7022\",\"optionvalue\":\"Work Week\"},{\"optionid\":\"7023\",\"optionvalue\":\"Stage\"},{\"optionid\":\"7024\",\"optionvalue\":\"PlanQuarter\"},{\"optionid\":\"7025\",\"optionvalue\":\"Deliverable Type\"},{\"optionid\":\"7026\",\"optionvalue\":\"State\"},{\"optionid\":\"7027\",\"optionvalue\":\"Size\"},{\"optionid\":\"7028\",\"optionvalue\":\"RStartweek\"},{\"optionid\":\"7029\",\"optionvalue\":\"REndweek\"},{\"optionid\":\"7030\",\"optionvalue\":\"RFeedback\"},{\"optionid\":\"7037\",\"optionvalue\":\"Followup Type\"},{\"optionid\":\"7038\",\"optionvalue\":\"plan Source\"},{\"optionid\":\"7039\",\"optionvalue\":\"Functional Area\"},{\"optionid\":\"7040\",\"optionvalue\":\"Effort\"},{\"optionid\":\"7041\",\"optionvalue\":\"Priority\"},{\"optionid\":\"7042\",\"optionvalue\":\"Time Criticality\"},{\"optionid\":\"7043\",\"optionvalue\":\"WorkFlow Status\"},{\"optionid\":\"7044\",\"optionvalue\":\"category\"},{\"optionid\":\"7045\",\"optionvalue\":\"session\"},{\"optionid\":\"7031\",\"optionvalue\":\"Sub Category\"},{\"optionid\":\"7032\",\"optionvalue\":\"Entity Type\"},{\"optionid\":\"7033\",\"optionvalue\":\"Category\"},{\"optionid\":\"7034\",\"optionvalue\":\"Column Type\"},{\"optionid\":\"7036\",\"optionvalue\":\"Lookup\\/Option\"},{\"optionid\":\"7035\",\"optionvalue\":\"Field Type\"},{\"optionid\":\"8002\",\"optionvalue\":\"TimeLine\"},{\"optionid\":\"8003\",\"optionvalue\":\"ReasonCode\"},{\"optionid\":\"8004\",\"optionvalue\":\"PlanTimeLine\"},{\"optionid\":\"351000001\",\"optionvalue\":\"PlanTimeline\"},{\"optionid\":\"7910\",\"optionvalue\":\"Reason Code\"},{\"optionid\":\"8004\",\"optionvalue\":\"FollowupStatus\"},{\"optionid\":\"8005\",\"optionvalue\":\"ImportStatus\"},{\"optionid\":\"8006\",\"optionvalue\":\"TagColor\"},{\"optionid\":\"11001\",\"optionvalue\":\"LeadStatusCode\"},{\"optionid\":\"201\",\"optionvalue\":\"CustomerSizeCode\"},{\"optionid\":\"202\",\"optionvalue\":\"CustomerTypeCode\"},{\"optionid\":\"203\",\"optionvalue\":\"PreferredContactMethodCode\"},{\"optionid\":\"204\",\"optionvalue\":\"LeadSourceCode\"},{\"optionid\":\"205\",\"optionvalue\":\"PaymentTermsCode\"},{\"optionid\":\"213\",\"optionvalue\":\"Status 1\"},{\"optionid\":\"224\",\"optionvalue\":\"Preferred Appointment Day Code\"},{\"optionid\":\"225\",\"optionvalue\":\"PreferredAppointmentTimeCode\"},{\"optionid\":\"301\",\"optionvalue\":\"Account Category Code\"},{\"optionid\":\"305\",\"optionvalue\":\"Account Rating Code\"},{\"optionid\":\"306\",\"optionvalue\":\"Industry Code\"},{\"optionid\":\"308\",\"optionvalue\":\"Account Classification Code\"},{\"optionid\":\"309\",\"optionvalue\":\"Business Type Code\"},{\"optionid\":\"2001\",\"optionvalue\":\"Process Stage\"},{\"optionid\":\"215\",\"optionvalue\":\"Address1 Address TypeCode\"},{\"optionid\":\"231\",\"optionvalue\":\"Lead Quality Code\"},{\"optionid\":\"214\",\"optionvalue\":\"Status Code\"},{\"optionid\":\"217\",\"optionvalue\":\"Address1 Shipping Method Code\"},{\"optionid\":\"416\",\"optionvalue\":\"Rating\"},{\"optionid\":\"417\",\"optionvalue\":\"Lead Score\"},{\"optionid\":\"422\",\"optionvalue\":\"Preferred Service\"},{\"optionid\":\"423\",\"optionvalue\":\"Department\"},{\"optionid\":\"424\",\"optionvalue\":\"Products\"},{\"optionid\":\"9000\",\"optionvalue\":\"Task Type\"},{\"optionid\":\"9001\",\"optionvalue\":\"Task Status\"},{\"optionid\":\"9002\",\"optionvalue\":\"Task priority\"},{\"optionid\":\"9005\",\"optionvalue\":\"Outcome\"},{\"optionid\":\"9006\",\"optionvalue\":\"EmailStatus\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"9007\",\"optionvalue\":\"RelatedInstanceStatus\"},{\"optionid\":\"9008\",\"optionvalue\":\"StepRelatedto\"},{\"optionid\":\"9009\",\"optionvalue\":\"Timezone\"},{\"optionid\":\"9010\",\"optionvalue\":\"Operator\"},{\"optionid\":\"7040\",\"optionvalue\":\"Workitem Type\"},{\"optionid\":\"351000000\",\"optionvalue\":\"Chunk\"},{\"optionid\":\"4000\",\"optionvalue\":\"Progress Status\"},{\"optionid\":\"8000\",\"optionvalue\":\"WorkDay\"},{\"optionid\":\"8001\",\"optionvalue\":\"WorkWeek\"},{\"optionid\":\"8007\",\"optionvalue\":\"Relationshiptype\"},{\"optionid\":\"237\",\"optionvalue\":\"Sales Stage\"},{\"optionid\":\"401\",\"optionvalue\":\"Budget Status\"},{\"optionid\":\"404\",\"optionvalue\":\"Opportunity Rating Code\"},{\"optionid\":\"9003\",\"optionvalue\":\"Duration\"},{\"optionid\":\"9004\",\"optionvalue\":\"RelatedTo\"},{\"optionid\":\"9020\",\"optionvalue\":\"Sequence Status\"},{\"optionid\":\"414\",\"optionvalue\":\"State Code\"},{\"optionid\":\"415\",\"optionvalue\":\"Account Status\"},{\"optionid\":\"418\",\"optionvalue\":\"Affirmation\"},{\"optionid\":\"419\",\"optionvalue\":\"Annual Revenue\"},{\"optionid\":\"420\",\"optionvalue\":\"Number of Employees\"},{\"optionid\":\"421\",\"optionvalue\":\"Transaction Currency\"},{\"optionid\":\"8009\",\"optionvalue\":\"Call Outcome\"},{\"optionid\":\"8010\",\"optionvalue\":\"Direction\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7800001",
+            "mastervalues": "[{\"optionid\":\"7001\",\"optionvalue\":\"Online\"},{\"optionid\":\"7002\",\"optionvalue\":\"Face To Face\"}]",
             "groupvalue": {}
           },
           {
@@ -10847,24 +10872,6 @@
                 },
                 {
                   "id": "sk01",
-                  "name": "Skills Associated",
-                  "lablekey": "entity-code-lbl",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": "textbox",
-                  "attrtype": "text",
-                  "currencytype": null,
-                  "api_name": "DisplayName",
-                  "visible": true,
-                  "displayapiname": "SkillsAssociated",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "sk02",
                   "name": "Jobs Associated",
                   "lablekey": "entity-code-lbl",
                   "columnwidth": 150,
@@ -10882,10 +10889,28 @@
                   "islookup": false
                 },
                 {
+                  "id": "sk02",
+                  "name": "Skills Associated Count",
+                  "lablekey": "entity-code-lbl",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "text",
+                  "currencytype": null,
+                  "api_name": "DisplayName",
+                  "visible": true,
+                  "displayapiname": "SkillsAssociated",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
                   "id": "sk03",
-                  "name": "Primary Skills",
+                  "name": "Primary Skills Count",
                   "lablekey": "entity-jobtitle-lbl",
-                  "columnwidth": 200,
+                  "columnwidth": 150,
                   "seqno": 1,
                   "masterid": "",
                   "controltype": "textbox",
@@ -10901,9 +10926,9 @@
                 },
                 {
                   "id": "sk04",
-                  "name": "Secondary Skills",
+                  "name": "Secondary Skills Count",
                   "lablekey": "entity-jobtitle-lbl",
-                  "columnwidth": 250,
+                  "columnwidth": 150,
                   "seqno": 1,
                   "masterid": "",
                   "controltype": "textbox",
@@ -10998,19 +11023,11 @@
           "controltype": "textbox",
           "attrtype": "text",
           "api_name": "SkillSetName",
-          "columnwidth": 250
+          "columnwidth": 100
         },
+       
         {
           "id": "sk01",
-          "seqno": 1,
-          "masterid": "",
-          "controltype": "textbox",
-          "attrtype": "text",
-          "api_name": "SkillsAssociated",
-          "columnwidth": 150
-        },
-        {
-          "id": "sk02",
           "seqno": 1,
           "masterid": "",
           "controltype": "textbox",
@@ -11019,13 +11036,22 @@
           "columnwidth": 150
         },
         {
+          "id": "sk02",
+          "seqno": 1,
+          "masterid": "",
+          "controltype": "textbox",
+          "attrtype": "text",
+          "api_name": "SkillsAssociated",
+          "columnwidth": 250
+        },
+        {
           "id": "sk03",
           "seqno": 1,
           "masterid": "",
           "controltype": "textbox",
           "attrtype": "text",
           "api_name": "PrimarySkills",
-          "columnwidth": 200
+          "columnwidth": 150
         },
         {
           "id": "sk04",
@@ -11043,39 +11069,74 @@
     "result": {
       "data": [
         {
-          "SkillSetName": "Analyst",
-          "SkillsAssociated": "10",
-          "JobsAssociated": "2",
+          "SkillSetName": "Data Science",
+          "SkillsAssociated": "Data Scientist, ML Engineer",
+          "JobsAssociated": "8",
           "PrimarySkills": "5",
-          "SecondarySkills": "5"
+          "SecondarySkills": "3"
         },
         {
-          "SkillSetName": "Analyst",
-          "SkillsAssociated": "10",
-          "JobsAssociated": "2",
+          "SkillSetName": "Software Development",
+          "SkillsAssociated": "Software Engineer, Web Developer",
+          "JobsAssociated": "9",
           "PrimarySkills": "5",
-          "SecondarySkills": "5"
+          "SecondarySkills": "4"
         },
          {
-          "SkillSetName": "Analyst",
-          "SkillsAssociated": "10",
-          "JobsAssociated": "2",
+          "SkillSetName": "Cloud Computing",
+          "SkillsAssociated": "Cloud Engineer, DevOps Engineer",
+          "JobsAssociated": "8",
           "PrimarySkills": "5",
-          "SecondarySkills": "5"
+          "SecondarySkills": "3"
         },
          {
-          "SkillSetName": "Analyst",
-          "SkillsAssociated": "10",
-          "JobsAssociated": "2",
+          "SkillSetName": "Cybersecurity",
+          "SkillsAssociated": "Security Analyst, Ethical Hacker",
+          "JobsAssociated": "9",
           "PrimarySkills": "5",
-          "SecondarySkills": "5"
+          "SecondarySkills": "4"
         } ,
         {
-          "SkillSetName": "Analyst",
-          "SkillsAssociated": "10",
-          "JobsAssociated": "2",
+          "SkillSetName": "Digital Marketing",
+          "SkillsAssociated": "SEO Specialist, Content Marketer",
+          "JobsAssociated": "8",
           "PrimarySkills": "5",
-          "SecondarySkills": "5"
+          "SecondarySkills": "3"
+        },
+        {
+          "SkillSetName": "Project Management",
+          "SkillsAssociated": "Project Manager, Scrum Master",
+          "JobsAssociated": "8",
+          "PrimarySkills": "5",
+          "SecondarySkills": "3"
+        },
+        {
+          "SkillSetName": "Business Analysis",
+          "SkillsAssociated": "Business Analyst, Product Owner",
+          "JobsAssociated": "8",
+          "PrimarySkills": "5",
+          "SecondarySkills": "3"
+        },
+        {
+          "SkillSetName": "UI/UX Design",
+          "SkillsAssociated": "UX Designer, UI Designer",
+          "JobsAssociated": "8",
+          "PrimarySkills": "5",
+          "SecondarySkills": "3"
+        },
+        {
+          "SkillSetName": "Finance & Accounting",
+          "SkillsAssociated": "Accountant, Financial Analyst",
+          "JobsAssociated": "8",
+          "PrimarySkills": "5",
+          "SecondarySkills": "3"
+        },
+        {
+          "SkillSetName": "Healthcare IT",
+          "SkillsAssociated": "Health Informatics Analyst, EMR Specialist",
+          "JobsAssociated": "8",
+          "PrimarySkills": "5",
+          "SecondarySkills": "3"
         }
       ],
 
