@@ -8241,6 +8241,23 @@
             "masterid": "7700002",
             "mastervalues": "[{\"optionid\":\"8001\",\"optionvalue\":\"Hr Recruiter\"},{\"optionid\":\"8002\",\"optionvalue\":\"Assistant Manager\"},{\"optionid\":\"8003\",\"optionvalue\":\"Senior Manager\"}]",
             "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7880001",
+            "mastervalues": "[{\"optionid\":\"7001\",\"optionvalue\":\"Open\"},{\"optionid\":\"7001\",\"optionvalue\":\"Closed\"},{\"optionid\":\"7001\",\"optionvalue\":\"Application Received\"},{\"optionid\":\"7002\",\"optionvalue\":\"Rejected\"},{\"optionid\":\"7003\",\"optionvalue\":\"Interview Scheduled\"}]",
+            "groupvalue": {}
+          }, {
+            "islookup": true,
+            "masterid": "7880002",
+            "mastervalues": "[{\"optionid\":\"8001\",\"optionvalue\":\"HR101\"},{\"optionid\":\"8002\",\"optionvalue\":\"PM456\"},{\"optionid\":\"8003\",\"optionvalue\":\"DA789\"},{\"optionid\":\"8003\",\"optionvalue\":\"HR101\"},{\"optionid\":\"8003\",\"optionvalue\":\"UX555\"},{\"optionid\":\"8003\",\"optionvalue\":\"IT777\"},{\"optionid\":\"8003\",\"optionvalue\":\"BA234\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7880003",
+            "mastervalues": "[{\"optionid\":\"8001\",\"optionvalue\":\"Jhon Doe\"},{\"optionid\":\"8002\",\"optionvalue\":\"Jane Smith\"},{\"optionid\":\"8003\",\"optionvalue\":\"Mark Jhonson\"},{\"optionid\":\"8003\",\"optionvalue\":\"Lisa Brown\"},{\"optionid\":\"8003\",\"optionvalue\":\"Emily Clark\"},{\"optionid\":\"8003\",\"optionvalue\":\"Robert White\"},{\"optionid\":\"8003\",\"optionvalue\":\"Nancy Green\"}]",
+            "groupvalue": {}
           }
         ]
       },
@@ -8403,9 +8420,9 @@
               "filterfields": [
                 {
                   "id": "001",
-                  "name": "Job Opening",
+                  "name": "Job Title",
                   "lablekey": "entity-type-lbl",
-                  "seqno": 5,
+                  "seqno": "01",
                   "filtercontroltype": "textbox",
                   "isquickfilter": true,
                   "api_name": "EntityType",
@@ -8416,40 +8433,40 @@
                 },
                 {
                   "id": "002",
-                  "name": "Department",
+                  "name": "Job Code",
                   "lablekey": "entity-type-lbl",
-                  "seqno": 6,
-                  "filtercontroltype": "textbox",
+                  "seqno": "02",
+                  "filtercontroltype": "multiselect",
                   "isquickfilter": true,
-                  "api_name": "EntityType",
-                  "islookup": true,
-                  "masterid": "",
+                  "api_name": "column13",
+                  "islookup": false,
+                  "masterid": "7880002",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 },
                 {
                   "id": "003",
-                  "name": "Status",
+                  "name": "Recruiter",
                   "lablekey": "entity-type-lbl",
-                  "seqno": 7,
-                  "filtercontroltype": "textbox",
+                  "seqno": "03",
+                  "filtercontroltype": "multiselect",
                   "isquickfilter": true,
-                  "api_name": "EntityType",
-                  "islookup": true,
-                  "masterid": "",
+                  "api_name": "column15",
+                  "islookup": false,
+                  "masterid": "7880003",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 },
                 {
                   "id": "004",
-                  "name": "Recruiter",
+                  "name": "Status",
                   "lablekey": "entity-type-lbl",
-                  "seqno": 8,
-                  "filtercontroltype": "textbox",
+                  "seqno": "04",
+                  "filtercontroltype": "multiselect",
                   "isquickfilter": true,
-                  "api_name": "EntityType",
-                  "islookup": true,
-                  "masterid": "",
+                  "api_name": "column14",
+                  "islookup": false,
+                  "masterid": "7880001",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 },
@@ -8457,7 +8474,7 @@
                   "id": "005",
                   "name": "Date",
                   "lablekey": "entity-type-lbl",
-                  "seqno": 9,
+                  "seqno": "05",
                   "filtercontroltype": "datepicker",
                   "isquickfilter": true,
                   "api_name": "EntityType",
@@ -9000,6 +9017,12 @@
             "islookup": true,
             "masterid": "8800004",
             "mastervalues": "[{\"optionid\":\"66001\",\"optionvalue\":\"Resume Parser\"},{\"optionid\":\"66002\",\"optionvalue\":\"EMployee Referrel\"},{\"optionid\":\"66003\",\"optionvalue\":\"Job-Board\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7800005",
+            "mastervalues": "[{\"optionid\":\"9001\",\"optionvalue\":\"Software Engineer\"},{\"optionid\":\"8002\",\"optionvalue\":\"Project Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Data Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"UI/UX Designer\"},{\"optionid\":\"9001\",\"optionvalue\":\"IT Support\"},{\"optionid\":\"9001\",\"optionvalue\":\"Buisness Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"Marketing Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Devops Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"QA Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"CyberSecurity Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"Product Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"System Administrator\"},{\"optionid\":\"9001\",\"optionvalue\":\"Content Writer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Mechanical Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Electrical Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Cloud Architect\"},{\"optionid\":\"9001\",\"optionvalue\":\"Sales Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Customer Support Rep\"}]",
             "groupvalue": {}
           }
         ]
@@ -9887,7 +9910,7 @@
           {
             "islookup": true,
             "masterid": "7800001",
-            "mastervalues": "[{\"optionid\":\"7001\",\"optionvalue\":\"Online\"},{\"optionid\":\"7002\",\"optionvalue\":\"Face To Face\"}]",
+            "mastervalues": "[{\"optionid\":\"7001\",\"optionvalue\":\"Face To Face\"},{\"optionid\":\"7002\",\"optionvalue\":\"Telephonic\"},{\"optionid\":\"7002\",\"optionvalue\":\"Online\"},{\"optionid\":\"7002\",\"optionvalue\":\"Video\"}]",
             "groupvalue": {}
           },
           {
@@ -9918,6 +9941,24 @@
             "islookup": true,
             "masterid": "8800004",
             "mastervalues": "[{\"optionid\":\"66001\",\"optionvalue\":\"Resume Parser\"},{\"optionid\":\"66002\",\"optionvalue\":\"EMployee Referrel\"},{\"optionid\":\"66003\",\"optionvalue\":\"Job-Board\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7800005",
+            "mastervalues": "[{\"optionid\":\"9001\",\"optionvalue\":\"Software Engineer\"},{\"optionid\":\"8002\",\"optionvalue\":\"Project Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Data Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"UI/UX Designer\"},{\"optionid\":\"9001\",\"optionvalue\":\"IT Support\"},{\"optionid\":\"9001\",\"optionvalue\":\"Buisness Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"Marketing Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Devops Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"QA Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"CyberSecurity Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"Product Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"System Administrator\"},{\"optionid\":\"9001\",\"optionvalue\":\"Content Writer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Mechanical Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Electrical Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Cloud Architect\"},{\"optionid\":\"9001\",\"optionvalue\":\"Sales Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Customer Support Rep\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7800006",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
+            "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7800007",
+            "mastervalues": "[{\"optionid\":\"001\",\"optionvalue\":\"Emily Johnson\"},{\"optionid\":\"002\",\"optionvalue\":\"Michael Smith\"},{\"optionid\":\"003\",\"optionvalue\":\"Jessica Williams\"},{\"optionid\":\"004\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"David Brown\"},{\"optionid\":\"005\",\"optionvalue\":\"Joshua Miller\"}]",
             "groupvalue": {}
           }
         ]
@@ -9971,7 +10012,7 @@
                 },
                 {
                   "id": "int01",
-                  "name": "Applied For",
+                  "name": "Job Opening",
                   "lablekey": "entity-jobtitle-lbl",
                   "columnwidth": 150,
                   "seqno": 2,
@@ -10135,7 +10176,7 @@
               "filterfields": [
                 {
                   "id": "001",
-                  "name": "Interview Type",
+                  "name": "Interview Mode",
                   "lablekey": "entity-type-lbl",
                   "seqno": "01",
                   "filtercontroltype": "multiselect",
@@ -10148,22 +10189,9 @@
                 },
                 {
                   "id": "002",
-                  "name": "Interview Date",
-                  "lablekey": "entity-type-lbl",
-                  "seqno": "02",
-                  "filtercontroltype": "datepicker",
-                  "isquickfilter": true,
-                  "api_name": "EntityType",
-                  "islookup": true,
-                  "masterid": "7800001",
-                  "apioutputskey": "optionid",
-                  "apioutputvalue": "optionvalue"
-                },
-                {
-                  "id": "003",
                   "name": "Interviewer Name",
                   "lablekey": "entity-type-lbl",
-                  "seqno": "03",
+                  "seqno": "02",
                   "filtercontroltype": "multiselect",
                   "isquickfilter": true,
                   "api_name": "column13",
@@ -10173,7 +10201,7 @@
                   "apioutputvalue": "optionvalue"
                 },
                 {
-                  "id": "004",
+                  "id": "003",
                   "name": "Status",
                   "lablekey": "entity-type-lbl",
                   "seqno": "03",
@@ -10182,6 +10210,32 @@
                   "api_name": "column13",
                   "islookup": false,
                   "masterid": "7800002",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "004",
+                  "name": "Job Opening",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": "04",
+                  "filtercontroltype": "multiselect",
+                  "isquickfilter": true,
+                  "api_name": "column17",
+                  "islookup": false,
+                  "masterid": "7800005",
+                  "apioutputskey": "optionid",
+                  "apioutputvalue": "optionvalue"
+                },
+                {
+                  "id": "005",
+                  "name": "Interview Date",
+                  "lablekey": "entity-type-lbl",
+                  "seqno": "05",
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "EntityType",
+                  "islookup": true,
+                  "masterid": "7800001",
                   "apioutputskey": "optionid",
                   "apioutputvalue": "optionvalue"
                 }
@@ -10400,7 +10454,7 @@
           "InterviewDate": "3/12/2024",
           "InterviewTime": "10:00:00 AM",
           "Stage": "Screening",
-          "Mode": "Virtual",
+          "Mode": "Face To Face",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10413,7 +10467,7 @@
           "InterviewDate": "3/13/2024",
           "InterviewTime": "2:00:00 PM",
           "Stage": "HR Interview",
-          "Mode": "In-Person",
+          "Mode": "Video",
           "Status": "Completed",
           "Rating": "4.5"
         },
@@ -10426,7 +10480,7 @@
           "InterviewDate": "3/14/2024",
           "InterviewTime": "11:30:00 AM",
           "Stage": "Tech Interview",
-          "Mode": "Virtual",
+          "Mode": "Face To Face",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10439,7 +10493,7 @@
           "InterviewDate": "3/12/2024",
           "InterviewTime": "1:00:00 PM",
           "Stage": "Final Interview",
-          "Mode": "In-Person",
+          "Mode": "Video",
           "Status": "Completed",
           "Rating": "4.2"
         },
@@ -10452,7 +10506,7 @@
           "InterviewDate": "3/15/2024",
           "InterviewTime": "9:00:00 AM",
           "Stage": "Offer Discussion",
-          "Mode": "Virtual",
+          "Mode": "Face To Face",
           "Status": "Completed",
           "Rating": "4.8"
         },
@@ -10465,7 +10519,7 @@
           "InterviewDate": "3/16/2024",
           "InterviewTime": "3:00:00 PM",
           "Stage": "Tech Interview",
-          "Mode": "Virtual",
+          "Mode": "Face To Face",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10478,7 +10532,7 @@
           "InterviewDate": "3/17/2024",
           "InterviewTime": "10:30:00 AM",
           "Stage": "Screening",
-          "Mode": "Virtual",
+          "Mode": "Online",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10491,7 +10545,7 @@
           "InterviewDate": "3/18/2024",
           "InterviewTime": "4:00:00 PM",
           "Stage": "Final Interview",
-          "Mode": "In-Person",
+          "Mode": "Video",
           "Status": "Completed",
           "Rating": "4.6"
         },
@@ -10504,7 +10558,7 @@
           "InterviewDate": "3/19/2024",
           "InterviewTime": "11:00:00 AM",
           "Stage": "HR Interview",
-          "Mode": "Virtual",
+          "Mode": "Online",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10517,7 +10571,7 @@
           "InterviewDate": "3/20/2024",
           "InterviewTime": "11:00:00 AM",
           "Stage": "HR Interview",
-          "Mode": "Virtual",
+          "Mode": "Online",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10530,7 +10584,7 @@
           "InterviewDate": "3/21/2024",
           "InterviewTime": "1:00:00 PM",
           "Stage": "Tech Interview",
-          "Mode": "In-Person",
+          "Mode": "Video",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10543,7 +10597,7 @@
           "InterviewDate": "3/22/2024",
           "InterviewTime": "3:30:00 PM",
           "Stage": "Final Interview",
-          "Mode": "Virtual",
+          "Mode": "Telephonic",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10556,7 +10610,7 @@
           "InterviewDate": "3/23/2024",
           "InterviewTime": "10:00:00 AM",
           "Stage": "Screening",
-          "Mode": "In-Person",
+          "Mode": "Video",
           "Status": "Completed",
           "Rating": "4.3"
         },
@@ -10569,7 +10623,7 @@
           "InterviewDate": "3/24/2024",
           "InterviewTime": "1:30:00 PM",
           "Stage": "HR Interview",
-          "Mode": "Virtual",
+          "Mode": "Telephonic",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10582,7 +10636,7 @@
           "InterviewDate": "3/25/2024",
           "InterviewTime": "9:00:00 AM",
           "Stage": "Offer Discussion",
-          "Mode": "Virtual",
+          "Mode": "Telephonic",
           "Status": "Completed",
           "Rating": "4.7"
         },
@@ -10595,7 +10649,7 @@
           "InterviewDate": "3/26/2024",
           "InterviewTime": "2:00:00 PM",
           "Stage": "Tech Interview",
-          "Mode": "Virtual",
+          "Mode": "Telephonic",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10608,7 +10662,7 @@
           "InterviewDate": "3/27/2024",
           "InterviewTime": "11:30:00 AM",
           "Stage": "Final Interview",
-          "Mode": "In-Person",
+          "Mode": "Video",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10621,7 +10675,7 @@
           "InterviewDate": "3/28/2024",
           "InterviewTime": "4:00:00 PM",
           "Stage": "HR Interview",
-          "Mode": "Virtual",
+          "Mode": "Telephonic",
           "Status": "Scheduled",
           "Rating": "N/A"
         },
@@ -10634,7 +10688,7 @@
           "InterviewDate": "3/29/2024",
           "InterviewTime": "10:30:00 AM",
           "Stage": "Offer Discussion",
-          "Mode": "Virtual",
+          "Mode": "Telephonic",
           "Status": "Completed",
           "Rating": "4.9"
         },
@@ -11140,7 +11194,7 @@
         }
       ],
 
-      "totalRecords": 6,
+      "totalRecords": 10,
       "groupbydetails": [
         {
           "groupbyid": "13",
