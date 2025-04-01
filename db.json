@@ -9024,6 +9024,12 @@
             "masterid": "7800005",
             "mastervalues": "[{\"optionid\":\"9001\",\"optionvalue\":\"Software Engineer\"},{\"optionid\":\"8002\",\"optionvalue\":\"Project Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Data Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"UI/UX Designer\"},{\"optionid\":\"9001\",\"optionvalue\":\"IT Support\"},{\"optionid\":\"9001\",\"optionvalue\":\"Buisness Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"Marketing Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Devops Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"QA Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"CyberSecurity Analyst\"},{\"optionid\":\"9001\",\"optionvalue\":\"Product Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"System Administrator\"},{\"optionid\":\"9001\",\"optionvalue\":\"Content Writer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Mechanical Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Electrical Engineer\"},{\"optionid\":\"9001\",\"optionvalue\":\"Cloud Architect\"},{\"optionid\":\"9001\",\"optionvalue\":\"Sales Manager\"},{\"optionid\":\"9001\",\"optionvalue\":\"Customer Support Rep\"}]",
             "groupvalue": {}
+          },
+          {
+            "islookup": true,
+            "masterid": "7800006",
+            "mastervalues": "[{\"optionid\":\"7001\",\"optionvalue\":\"Scheduled\"},{\"optionid\":\"7002\",\"optionvalue\":\"Rescheduled\"},{\"optionid\":\"7003\",\"optionvalue\":\"No Show\"},{\"optionid\":\"7003\",\"optionvalue\":\"Hired\"},{\"optionid\":\"7003\",\"optionvalue\":\"Rejected\"},{\"optionid\":\"7003\",\"optionvalue\":\"On-Hold\"}]",
+            "groupvalue": {}
           }
         ]
       },
